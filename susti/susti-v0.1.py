@@ -8,7 +8,7 @@
 # If the section does not exist, it will append the section and the option at the bottom
 #
 # By Julen Larrucea (PhD), German Climate Computing Centre GmbH, Hamburg
-# julen@larrucea.eu, http://larrucea.eu 
+# julen [Oa] larrucea.eu, http://larrucea.eu 
 #
 # Usage: susti config_file section "keyword = value"
 #  example: susti /etc/keystone/keystone.conf DEFAULT "verbose = True"

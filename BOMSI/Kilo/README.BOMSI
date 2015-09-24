@@ -1,0 +1,19 @@
+
+
+ BOMSI: the OpenStack Multinode Scripted Installer
+ 
+BOMSI is a versatile and comprehensive tool for creating fully automated small and medium sized
+Open Stack installations including all the official components.
+
+QUICK START:
+If you want to try openstack quickly, just run the script as:
+
+for NODE in controller compute1 network; do ./bomsi-iso.sh -n=1.$NODE; done
+
+(with no arguments)
+It will create three iso files with preselected settings for a controller, compute and network nodes
+and start three virtual machines. After rebooting the virtual machines and waiting a few minutes, you
+will be able visit http://10.0.0.11/dashboard and start launching OpenStack instances.
+
+The source will be uploaded soon.
+ 
